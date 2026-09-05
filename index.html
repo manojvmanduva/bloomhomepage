@@ -122,7 +122,7 @@ header{
 .how h2{font:500 clamp(3rem,5.2vw,4.7rem)/1 var(--serif);margin:0}
 .notice{font:italic 1.3rem/1.15 var(--serif);transform:rotate(3deg);text-align:center}
 .notice b{color:var(--cyan)}
-.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}
 .step{display:flex;flex-direction:column}
 .step-img{background:var(--cream-2);border-radius:26px;overflow:hidden;aspect-ratio:1.45/1}
 .step-img img{width:100%;height:100%;object-fit:cover}
@@ -188,13 +188,15 @@ footer{background:var(--ink);color:var(--cream);padding:48px 0}
 @media(max-width:900px){
   .navlinks>a:not(.btn){display:none}
   .hero-grid,.verb-grid,.time-grid,.small-grid,.insight{grid-template-columns:1fr}
-  .feature-grid,.steps{grid-template-columns:1fr}
+  .feature-grid{grid-template-columns:1fr}
+  .steps{grid-template-columns:repeat(2,1fr)}
   .quotes{grid-template-columns:1fr}
   .hero-art{max-width:620px;margin:auto}
   .how-head{align-items:flex-start}
   .footer-grid{grid-template-columns:1fr}
 }
 @media(max-width:600px){
+  .steps{grid-template-columns:1fr}
   .wrap{width:min(100% - 26px,1180px)}
   .logo{width:150px}
   .hero{padding-top:110px}
@@ -232,7 +234,7 @@ footer{background:var(--ink);color:var(--cream);padding:48px 0}
       <div class="reveal">
         <div class="eyebrow" style="color:var(--cyan);margin-bottom:15px">Your child's growth story</div>
         <h1>Preserve curiosity.<br>See who they're becoming.<br><em>Bloom it.</em></h1>
-        <p>Bloom helps you save the little things — a sketch, a question, a half-finished project, a moment of persistence — then connects them over time into a living story of growth.</p>
+        <p>Bloom helps you save the little things — a sketch, a question, a half-finished project, a moment of persistence — then connects them over time into a living story and a self-updating portfolio you can share.</p>
         <div class="hero-actions">
           <a class="btn" href="#start">Start your child's story →</a>
           <a class="btn light" href="#how">See how Bloom works</a>
@@ -323,6 +325,66 @@ footer{background:var(--ink);color:var(--cream);padding:48px 0}
           <h3>3. See their story unfold</h3>
           <p>Over time, ordinary moments reveal interests, persistence, growth, and a beautiful picture of who they're becoming.</p>
         </article>
+        <article class="step reveal">
+          <div class="step-img" style="display:grid;place-items:center;background:linear-gradient(145deg,#eefbdc,#d9f8ec);padding:24px">
+            <div style="width:88%;background:#fffef8;border-radius:20px;padding:16px;box-shadow:0 14px 32px rgba(39,45,58,.12)">
+              <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:14px">
+                <strong style="font-family:var(--serif);font-size:1.15rem">Leela's Portfolio</strong>
+                <span style="font-size:.72rem;color:#6b7280">bloom.kim/leela</span>
+              </div>
+              <div style="height:82px;border-radius:14px;background:linear-gradient(135deg,var(--cyan),var(--violet));margin-bottom:12px"></div>
+              <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px">
+                <span style="height:44px;border-radius:10px;background:#efffdc"></span>
+                <span style="height:44px;border-radius:10px;background:#d7f7e9"></span>
+                <span style="height:44px;border-radius:10px;background:#ffe9af"></span>
+              </div>
+            </div>
+          </div>
+          <h3>4. Share their living portfolio</h3>
+          <p>Bloom turns the story into a beautiful portfolio site that keeps updating as new moments are added.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+
+  <section style="background:#fffaf0;padding:96px 0">
+    <div class="wrap" style="display:grid;grid-template-columns:.9fr 1.1fr;gap:52px;align-items:center">
+      <div class="reveal">
+        <div class="eyebrow" style="color:var(--violet);margin-bottom:13px">The output builds itself</div>
+        <h2 style="font:500 clamp(3rem,5vw,4.8rem)/1 var(--serif);letter-spacing:-.04em;margin:0 0 18px">From everyday moments to a portfolio worth sharing.</h2>
+        <p style="font-size:1.08rem;line-height:1.65;color:var(--muted);margin:0 0 22px">
+          You don't have to build or maintain another website. Every moment you Bloom can become part of a beautiful, self-updating portfolio for your child.
+        </p>
+        <p style="font-size:1.02rem;line-height:1.6;color:var(--muted);margin:0">
+          Share it when you want with grandparents, teachers, mentors, or anyone you choose. As new moments are added, the portfolio keeps evolving too.
+        </p>
+      </div>
+
+      <div class="reveal" style="background:var(--ink-soft);border-radius:30px;padding:24px;box-shadow:0 20px 56px rgba(39,45,58,.18)">
+        <div style="background:#fffef8;border-radius:22px;overflow:hidden">
+          <div style="display:flex;align-items:center;justify-content:space-between;padding:16px 18px;border-bottom:1px solid #ece7db">
+            <strong style="font-family:var(--serif);font-size:1.3rem">Leela's Creative Journey</strong>
+            <span style="font-size:.76rem;color:#7b7f88">bloom.kim/leela</span>
+          </div>
+          <div style="padding:18px">
+            <div style="height:160px;border-radius:18px;background:linear-gradient(135deg,var(--cyan),var(--violet));display:flex;align-items:flex-end;padding:18px;color:white;margin-bottom:16px">
+              <div>
+                <div style="font-size:.75rem;text-transform:uppercase;letter-spacing:.12em;opacity:.8">Featured project</div>
+                <div style="font-family:var(--serif);font-size:1.8rem;margin-top:5px">Learning to Sew</div>
+              </div>
+            </div>
+            <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:10px">
+              <div style="background:#efffdc;border-radius:14px;padding:14px"><strong style="display:block;margin-bottom:5px">Projects</strong><span style="font-size:.82rem;color:#6b7280">12 moments</span></div>
+              <div style="background:#d7f7e9;border-radius:14px;padding:14px"><strong style="display:block;margin-bottom:5px">Threads</strong><span style="font-size:.82rem;color:#6b7280">Sewing · Comics</span></div>
+              <div style="background:#ffe9af;border-radius:14px;padding:14px"><strong style="display:block;margin-bottom:5px">Growth</strong><span style="font-size:.82rem;color:#6b7280">Updates itself</span></div>
+            </div>
+          </div>
+        </div>
+        <div style="display:flex;align-items:center;justify-content:space-between;gap:14px;margin-top:14px;color:rgba(255,250,240,.82);font-size:.88rem">
+          <span>New capture added</span>
+          <span style="color:#6fe3b0">Portfolio updated ✓</span>
+        </div>
       </div>
     </div>
   </section>
