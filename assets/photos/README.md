@@ -14,3 +14,5 @@ Prompts:
 - **tutor.png**: Candid realistic editorial photograph of a friendly adult female tutor and an elementary-school-age child at a bright home table building a small bridge from wooden craft sticks together. Both focused on their hands and model, authentic joyful concentration.
 
 - **pencil-hand.png**: Transparent overhead photographic cutout of a small right hand holding a sharpened wooden yellow graphite pencil in a natural writing grip; wrist enters from bottom right and pencil points down-left. Warm natural daylight, realistic anatomy, generous transparent margins, no paper, desk, text, or other objects. Generated with the built-in image tool.
+
+- **child-pencil-hand.png**: A family education website asset: overhead photograph of a child’s left hand holding a yellow pencil to draw, isolated on a transparent background. Long-sleeved mint cotton cuff enters from the lower left and pencil tip points toward upper right. Natural writing grip, soft daylight, realistic photography. Only hand, pencil, and cuff. No text or other objects. Generated with built-in image generation.
